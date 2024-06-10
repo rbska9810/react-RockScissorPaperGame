@@ -1,0 +1,60 @@
+.Box_wrap{
+  display: flex;
+  gap:1rem;
+  justify-content: center;
+}
+h1{
+  text-align: center;
+  color: rgb(64, 70, 75);
+}
+.Box{
+  text-align: center;
+  width: 30%; 
+  height: 500px;
+  padding:  0.3rem;
+  border: 10px solid transparent;
+  font-size: 0.8rem;
+}
+.Box img {
+  height: 60%;
+  object-fit: contain;
+}
+.Box-wrap{
+  display: flex;
+  justify-content: center;
+}
+.main{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.main button{
+  cursor: pointer;
+  border: none;
+  background-color: rgb(57, 15, 92);
+  padding: 0.5rem 1rem ;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  color: white;
+}
+.main button:hover{
+  transition: 0.2S;
+  background-color: rgb(94, 35, 202);
+}
+.win{
+  border: 10px solid rgb(119, 206, 119);
+  color:green;
+}
+.lose{
+  border: 10px solid rgb(241, 87, 87);
+  color: red;
+}
+.tie{
+  border: 10px solid grey;
+  color: grey;
+}
+
+img {
+  width: 100%;
+}
